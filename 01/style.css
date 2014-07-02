@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-size: 40px;
+}
+
+#navi01 {
+  list-style: none; /* 行頭記号 */
+  margin: 0;  /* 外側の余白 */
+  padding: 0; /* 内側の余白 */
+  background-color: red;
+}
+
+#navi01 li {
+  background-color: blue;
+  width: 150px;
+  float: left; /* 回り込み */
+}
